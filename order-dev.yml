@@ -1,3 +1,6 @@
+girl:
+  name: lili
+  age: 35
 spring:
   application:
     name: order
@@ -20,6 +23,4 @@ PRODUCT:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
 env:
   dev6
-girl:
-  name: lili
-  age: 34
+
