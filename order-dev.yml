@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: order
+  datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      username: root
+      password: 123456
+      url: jdbc:mysql:///sell?useUnicode=true&useSSL=false&autoReconnect=true
+  jpa:
+      show-sql: true
+  freemarker:
+    cache: false
+    settings:
+      template_update_delay: 0
+server:
+  port: 8081
+
+PRODUCT:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+env:
+  dev6
+girl:
+  name: lili
+  age: 20
