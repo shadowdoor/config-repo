@@ -1,12 +1,12 @@
 spring:
   datasource:
-      driver-class-name: com.mysql.jdbc.Driver
-      username: root
-      password: 123456
-  #    password: 510311929
-      url: jdbc:mysql:///sell?useUnicode=true&useSSL=false&autoReconnect=true
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+#    password: 510311929
+    url: jdbc:mysql:///sell?useUnicode=true&useSSL=false&autoReconnect=true
   jpa:
-      show-sql: true
+    show-sql: true
   freemarker:
     cache: false
     settings:
