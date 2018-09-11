@@ -1,6 +1,9 @@
 spring:
   application:
     name: order
+  redis:
+    host: localhost
+    port: 6379
   rabbitmq:
     host: localhost
     port: 5672
