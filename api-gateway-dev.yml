@@ -8,11 +8,3 @@ zuul:
     user:
       path: /user/**
       serviceId: user
-#    自定义路由简洁写法
-#    product: /myProduct/**
-#    排除
-  ignored-patterns:
-#    - /myProduct/product/listForOrder
-#    - /product/product/listForOrder
-#   排除简洁写法
-    - /**/product/listForOrder
