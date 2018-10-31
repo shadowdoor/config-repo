@@ -5,9 +5,8 @@ zuul:
     myProduct:
       path: /myProduct/**
       serviceId: product
-      sensitiveHeaders:
     user:
-      path: /login/**
+      path: /user/**
       serviceId: user
 #    自定义路由简洁写法
 #    product: /myProduct/**
